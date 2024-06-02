@@ -1,0 +1,7 @@
+[package]
+edition = "2021"
+name    = "algo"
+version = "0.1.0"
+
+[dependencies]
+blake3 = "1.5.1"

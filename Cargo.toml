@@ -9,6 +9,7 @@ version = "0.1.0"
 crate-type = ["cdylib"]
 
 [dependencies]
+algo        = { workspace = true }
 napi        = { version = "2", no-default-features = true, features = ["full"] }
 napi-derive = "2"
 
@@ -17,3 +18,9 @@ napi-build = "2"
 
 [profile.release]
 lto = true
+
+[workspace]
+members = [".", "algo"]
+
+  [workspace.dependencies]
+  algo = { path = "algo" }
