@@ -1,9 +1,8 @@
 {
-  "name": "@napi-rs/package-template",
+  "name": "@napi-rs/node-binding",
   "version": "1.0.0",
-  "description": "Template project for writing node package with napi-rs",
+  "description": "node binding for algo",
   "main": "index.js",
-  "repository": "git@github.com:napi-rs/package-template.git",
   "license": "MIT",
   "keywords": [
     "napi-rs",
