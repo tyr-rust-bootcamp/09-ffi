@@ -4,4 +4,6 @@ name    = "algo"
 version = "0.1.0"
 
 [dependencies]
+anyhow = "1.0.86"
 blake3 = "1.5.1"
+oneshot = "0.1.7"
