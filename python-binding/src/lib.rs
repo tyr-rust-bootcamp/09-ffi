@@ -1,3 +1,6 @@
+mod hasher;
+
+use hasher::PyAlgo;
 use pyo3::prelude::*;
 
 /// Prints a message.
@@ -10,5 +13,6 @@ fn hello() -> PyResult<String> {
 #[pymodule]
 fn _lowlevel(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(hello, m)?)?;
+    m.add_class::<PyAlgo>()?;
     Ok(())
 }

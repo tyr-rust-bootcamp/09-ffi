@@ -9,4 +9,5 @@ name = "python_binding"
 crate-type = ["cdylib"]
 
 [dependencies]
+algo = { workspace = true }
 pyo3 = "0.21"

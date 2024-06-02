@@ -19,7 +19,7 @@ impl JsAlgo {
 
   #[napi]
   pub fn hash(&self, v: String) -> String {
-    self.inner.hash(v)
+    self.inner.hash(&v)
   }
 
   #[napi]
