@@ -1,3 +1,3 @@
-from algo._lowlevel import hello, Algo
+from algo._lowlevel import hello, Algo, Matrix
 
-__all__ = ["hello", "Algo"]
+__all__ = ["hello", "Algo", "Matrix"]
