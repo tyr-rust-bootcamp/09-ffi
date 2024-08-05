@@ -1,9 +1,9 @@
 [workspace]
-members  = ["node-binding", "algo"]
+members = ["algo", "node-binding", "python-binding"]
 resolver = "2"
 
-  [workspace.dependencies]
-  algo = { path = "algo" }
+[workspace.dependencies]
+algo = { path = "algo" }
 
 [profile.release]
 lto = true
